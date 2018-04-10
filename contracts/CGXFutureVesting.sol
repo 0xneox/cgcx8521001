@@ -217,7 +217,7 @@ contract CGXFutureVesting {
   function CGXFutureVesting() {
     unlockDate = now + 540 days;
     // Advisors
-    allocations[0x00d1bCbCDE9Ca431f6dd92077dFaE98f94e446e4] = 58832579;
+    allocations[0x00d1bCbCDE9Ca431f6dd92077dFaE98f94e446e4] = ;
   }
 
   function unlock() external {

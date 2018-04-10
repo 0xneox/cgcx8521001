@@ -168,13 +168,13 @@ contract CgcxToken is SafeMath, StandardToken, Pausable {
     address public cgxFutureDeposit = 0x00d1bCbCDE9Ca431f6dd92077dFaE98f94e446e4;
     address public cgxInflationDeposit = 0x00D31206E625F1f30039d1Fa472303E71317870A;
 
-    uint256 public constant cgxSale = 31603785 * 10**decimals;
-    uint256 public constant cgxSeed = 3566341 * 10**decimals;
-    uint256 public constant cgxPreSale = 22995270 * 10**decimals;
-    uint256 public constant cgxVesting  = 28079514 * 10**decimals; 
-    uint256 public constant cgxCommunity  = 10919811 * 10**decimals;
-    uint256 public constant cgxFuture  = 58832579 * 10**decimals;
-    uint256 public constant cgxInflation  = 14624747 * 10**decimals;
+    uint256 public constant cgxSale = 707693568 * 10**decimals;
+    uint256 public constant cgxSeed = 200000000 * 10**decimals;
+    uint256 public constant cgxPreSale = 235897856 * 10**decimals;
+    uint256 public constant cgxVesting = 200000000 * 10**decimals;
+    uint256 public constant cgxCommunity  = 212047572 * 10**decimals;
+    uint256 public constant cgxFuture  = 371702427 * 10**decimals;
+    uint256 public constant cgxInflation  = 16250001 * 10**decimals;
 
     // constructor
     function CgcxToken()
